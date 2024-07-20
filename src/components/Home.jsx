@@ -7,7 +7,7 @@ function Home() {
             <div className="row">
                 <div className="col my-4">
                     {/* Sidebar */}
-                    <div className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style={{ width: '280px', marginTop: '3.8rem' }}>
+                    <div className="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style={{ width: '280px' }}>
                         <Link to="/" className="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                             <svg className="bi pe-none me-2" width="40" height="32"><use xlinkHref="#bootstrap"></use></svg>
                             <span className="fs-4">Sidebar</span>
@@ -67,7 +67,7 @@ function Home() {
                     <div className="card custom-card" style={{ width: '400px' }}>
                         <div className="card-body">
                             <h4 className="card-title">Hello User!</h4>
-                            <p className="card-text">It`&apos;`s good to see you back!</p>
+                            <p className="card-text">It's good to see you back!</p>
                         </div>
                     </div>
 
@@ -85,7 +85,7 @@ function Home() {
                     <div className="card mt-4 custom-card">
                         <div className="card-header">
                             <h5 className="card-title">Courses</h5>
-                        </div>
+                      </div>
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4">
