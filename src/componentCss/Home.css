@@ -1,0 +1,94 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px;
+    height: 100vh;
+    background-color: #343a40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.container {
+    margin-left: 0px;
+}
+
+.custom-card {
+    background-color: #0a0834;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.custom-card .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #e9e4e4;
+    margin-bottom: 10px;
+}
+
+.custom-card .card-text {
+    font-size: 18px;
+    color: #c3b9b9;
+}
+
+.custom-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* add a hover effect */
+}
+
+.course-card {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: left;
+    height: 100%;
+}
+
+.course-card .card-title {
+    color: #e9e4e4;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.course-card .card-text {
+    color: #c3b9b9;
+    font-size: 16px;
+}
+
+.course-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+.course-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.card-one
+{
+    background-color: #bebecd;
+    padding: 10px
+}
+
+.card-one .card-title {
+    color: #0a0834;
+    font-size: 28px;
+}
+
+.card-one .progress-bar {
+    background-color: #0a0834;
+}
+
+.card-one .card-body {
+    color: #343a40;
+}
