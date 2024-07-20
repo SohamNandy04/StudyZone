@@ -86,7 +86,7 @@ function Home() {
                     <div className="card mt-4 custom-card">
                         <div className="card-header">
                             <h5 className="card-title">Courses</h5>
-                        </div>
+         ca             </div>
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4">
