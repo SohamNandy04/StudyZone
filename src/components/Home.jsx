@@ -67,7 +67,7 @@ function Home() {
                     <div className="card custom-card" style={{ width: '400px' }}>
                         <div className="card-body">
                             <h4 className="card-title">Hello User!</h4>
-                            <p className="card-text">It's good to see you back!</p>
+                            <p className="card-text">It`&apos;`s good to see you back!</p>
                         </div>
                     </div>
 
