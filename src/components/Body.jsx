@@ -6,10 +6,10 @@ import stdypic from '../assets/footerimg.png'
 
 function Body() {
 
-    const hrstyle={
-      width: 'auto',
-      color: 'red',
-    }
+    // const hrstyle={
+    //   width: 'auto',
+    //   color: 'red',
+    // }
 
     return (
       <>
@@ -31,8 +31,6 @@ function Body() {
               </div>
           </div>
         </div>
-
-        <hr style={hrstyle}/>
 
         <section className="divSect">
 

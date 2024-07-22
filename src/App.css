@@ -20,7 +20,6 @@ footer {
 .nav {
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid #dee2e6;
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   font-weight: 600;
