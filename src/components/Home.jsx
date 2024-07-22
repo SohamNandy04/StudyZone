@@ -29,19 +29,13 @@ function Home() {
                             <li>
                                 <Link to="/orders" className="nav-link text-white">
                                     <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#table"></use></svg>
-                                    Orders
+                                    Your Courses
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/products" className="nav-link text-white">
                                     <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#grid"></use></svg>
-                                    Products
-                                </Link>
-                            </li>
-                            <li>
-                                <Link to="/customers" className="nav-link text-white">
-                                    <svg className="bi pe-none me-2" width="16" height="16"><use xlinkHref="#people-circle"></use></svg>
-                                    Customers
+                                    Notifications
                                 </Link>
                             </li>
                         </ul>
@@ -52,9 +46,8 @@ function Home() {
                                 <strong>mdo</strong>
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-dark text-small shadow">
-                                <li><Link className="dropdown-item" to="#">New project...</Link></li>
                                 <li><Link className="dropdown-item" to="#">Settings</Link></li>
-                                <li><Link className="dropdown-item" to="#">Profile</Link></li>
+                                <li><Link className="dropdown-item" to="#">Privacy & Security</Link></li>
                                 <li><hr className="dropdown-divider" /></li>
                                 <li><Link className="dropdown-item" to="#">Sign out</Link></li>
                             </ul>
