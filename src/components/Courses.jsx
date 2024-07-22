@@ -47,7 +47,7 @@ function Courses() {
 
     return (
             <div className="container mt-4">
-                <h1 className="text-center mb-4">Courses Offered</h1>
+                <h1 className="ccnt text-center mb-4">Courses Offered</h1>
                 <div className="row">
                     {coursesData.map(course => (
                         <div key={course.id} className="col-lg-4 col-md-6 mb-4">

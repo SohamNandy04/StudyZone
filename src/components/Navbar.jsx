@@ -23,7 +23,7 @@ function Navbar() {
                     <ul className="nav   mb-md-0 mx-auto">
                         <li><a href="/home" className="nav-link px-2">Home</a></li>
                         <li><a href="/courses" className="nav-link px-2">Courses</a></li>
-                        <li><a href="/" className="nav-link px-2">Pricing</a></li>
+                        <li><a href="" className="nav-link px-2">Pricing</a></li>
                         <li><a href="/about" className="nav-link px-2">About</a></li>
                     </ul>
 
