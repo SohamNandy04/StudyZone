@@ -1,8 +1,15 @@
-
-
 .context{
-    margin-top: 120px;
+    padding: 20px;
+    margin-top: 100px;
     color: white;
     font-size: x-large;
     margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.accordion{
+    padding: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
