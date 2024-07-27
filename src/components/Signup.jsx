@@ -22,38 +22,38 @@ function Signup(){
     // onChange={handleInput}
 
     return (
-        <>
-            <div className="signup template d-flex justify-content-center align-items-center 100-w vh-100">
-                <div className="40-w p-5 rounded bg-white">
-                    <form action="">
-                        <h3 className="text-center">Sign Up</h3>
-                        <div className="mb-2">
-                            <label htmlFor="fname">First Name</label>
-                            <input type="text" placeholder="Enter First Name" className="form-control" autoComplete="off"/>
-                        </div>
-                        <div className="mb-2">
-                            <label htmlFor="lname">Last Name</label>
-                            <input type="text" placeholder="Enter Last Name" className="form-control" autoComplete="off"/>
-                        </div>
-                        <div className="mb-2">
-                            <label htmlFor="email">Email ID</label>
-                            <input type="email" placeholder="Enter Email" className="form-control" autoComplete="off"/>
-                        </div>
-                        <div className="mb-2">
-                            <label htmlFor="password">Password</label>
-                            <input type="password" placeholder="Enter Password" className="form-control"/>
-                        </div>
-                        <div className="d-grid">
-                            <button type="button" className="btn btn-primary">Register</button>
-                        </div>
-                        <p className="text-right lh-l">
-                            Already have a account ? <NavLink to="/login" className="ms-2">Sign In</NavLink> 
+        <div className="signup-page d-flex justify-content-center align-items-center vh-100" style={{marginTop: '50px'}}>
+            <div className="signup-container p-4 p-md-5 rounded bg-light shadow">
+                <h3 className="text-center mb-4">Sign Up</h3>
+                <form>
+                    <div className="mb-3">
+                        <label htmlFor="fname" className="form-label">First Name</label>
+                        <input type="text" id="fname" placeholder="Enter First Name" className="form-control" autoComplete="off" required />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="lname" className="form-label">Last Name</label>
+                        <input type="text" id="lname" placeholder="Enter Last Name" className="form-control" autoComplete="off" required />
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="email" className="form-label">Email ID</label>
+                        <input type="email" id="email" placeholder="Enter Email" className="form-control" autoComplete="off" required/>
+                    </div>
+                    <div className="mb-3">
+                        <label htmlFor="password" className="form-label">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" className="form-control" required />
+                    </div>
+                    <div className="d-grid">
+                        <button type="button" className="btn btn-primary">Register</button>
+                    </div>
+                    <div className="text-center mt-3">
+                        <p>
+                            Already have an account? <NavLink to="/login" className="text-decoration-none">Sign In</NavLink>
                         </p>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
-        </>
-    )
+        </div>
+    );
 }
 
 export default Signup
