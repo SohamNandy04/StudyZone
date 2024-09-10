@@ -31,8 +31,8 @@ function Signup(){
                         <input type="text" id="fname" placeholder="Enter First Name" className="form-control" autoComplete="off" required />
                     </div>
                     <div className="mb-3">
-                        <label htmlFor="lname" className="form-label">Last Name</label>
-                        <input type="text" id="lname" placeholder="Enter Last Name" className="form-control" autoComplete="off" required />
+                        <label htmlFor="lname" className="form-label">Phone Number</label>
+                        <input type="text" id="phno" placeholder="Enter Phone Number" className="form-control" autoComplete="off" required />
                     </div>
                     <div className="mb-3">
                         <label htmlFor="email" className="form-label">Email ID</label>
