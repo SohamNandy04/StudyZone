@@ -16,7 +16,7 @@ function Signup(){
     const handleSubmit = (e) => {
         e.preventDefault()
         
-        axios.post("api/v1/users/register",{name,phone,email,password})
+        axios.get("api/v1/users/register",{name,phone,email,password})
         .then(result => {console.log(result)
             navigate("/login")}).catch(err => console.log(err))
     }
